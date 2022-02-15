@@ -1,0 +1,186 @@
+body {
+	background-color: #e9e4ee!important;
+}
+.pg-login-signup-bg{
+	  background:url("../images/library2.jpg");
+	  background-size: 100%;
+	  background-repeat:no-repeat;
+	  overflow:hidden;
+}
+/*---------------------------------Errmsg------------------------------------------------ */
+ .errmsg {
+	color: red;
+	font-weight: bold;
+	text-align: center;
+	margin: 0px 0px 10px 120px;
+}
+/*------------------------------Login.jsp------------------------------------------------ */
+#pg-login .errmsg {
+	color: red;
+	font-weight: bold;
+	text-align: center;
+	margin: 0px 0px 0px 0px;
+}
+
+#pg-login .login_box {
+	border: 3px solid #ffffff;
+	border-radius:3px;
+	width:300px;
+	height:400px;
+	margin: 110px 50px 150px 500px;
+	background-color:#ffffff;
+	font-family:Comic Sans MS,Georgia, serif;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#pg-login .box_content {
+	text-align: center;
+	padding:80px 0px 0px 0px;
+	color:#000000;
+	font-size:20px;
+	font-weight:600;
+	font-family:Georgia, serif;
+}
+#pg-login .box_content form {
+	text-align: center;
+}
+#pg-login .box_content input[type='submit'] {
+    margin: 30px 0px 0px 0px;
+    font-family:Georgia, serif;
+}
+#pg-login .box_content input[type='text'] {
+    text-align: center;    
+}
+#pg-login .bottom_box {
+    background-color:#00b359;
+	margin:74px -3px 0px -3px;
+}
+#pg-login .bottom_content {
+	display:inline-block;
+    background-color:#00b359;
+    font-weight:800;
+	font-size:20px;
+	color:#ffffff;
+}
+#pg-login .bottom_content a{
+	text-decoration:none;
+	color:#ffffff;
+	margin:0px 0px 0px 13px;
+}
+
+#pg-login input[type=text] {
+	width:180px;
+	height:20px;
+	border:none;
+	border-bottom:2px solid #808080;
+	margin: 9px 0px 0px 0px;
+	font-family:Comic Sans MS,Georgia, serif;	
+}
+#pg-login input[type=text]:focus {
+	outline:none;
+}
+#pg-login input[type=password] {
+	width:180px;
+	height:20px;
+	border:none;
+	border-bottom:2px solid #808080;
+	margin: 9px 0px 0px 0px;
+	
+}
+#pg-login input[type=password]:focus {
+	outline:none;
+}
+#pg-login input[type=submit] {
+	background-color:#00b359;
+	border:2px solid #00b359;
+	width:100px;
+	height: 43px;
+    margin: 30px 0px 0px 37px;
+	color:white;
+	font-size:25px;
+	font-family:Georgia, serif;
+	cursor:pointer;
+}
+#pg-login input[type=button]:focus {
+	outline:none;
+}
+#pg-login input[type=button]:hover {
+	background-color:#00d56a;
+	border:2px solid #00d56a;
+}
+
+/*---------------------------------------------SignUp---------------------------------------------------*/
+
+
+#pg-signup .signup_box {
+	border: 3px solid #ffffff;
+	border-radius:3px;
+	width:500px;
+	height:400px;
+	margin: 110px 50px 150px 435px;
+	background-color:#ffffff;
+	font-family:Comic Sans MS,Georgia, serif;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.panel-info {
+	border:0px transparent !important;
+	border-color: rgba(255,255,255,.1) !important;
+	border-radius:0px !important;
+}
+
+.panel-heading {
+	background-color: #00b359 !important;
+	border-radius:0px !important;
+	height:50px;
+}
+.panel-footer {
+	background-color: #00b359 !important;
+	border-radius:0px !important;
+	height:50px;
+	color: #ffffff !important;
+	font-size: 21px !important;
+}
+.panel-title {
+	color: #ffffff !important;
+	font-size: 21px !important;
+}
+#pg-signup .btn-info {
+	color: #fff;
+    background-color: #00b359 !important;
+    border-color: #00b359 !important;
+    width: 100%;
+}
+.logo {
+	height: 50px;
+    width: 108px;
+    margin: -15px 0px 0px 0px;
+}
+/*---------------------------------------------Header---------------------------------------------------*/
+.nav li a{
+	font-family: sans-serif !important;
+	font-size: 18px !important;
+}
+/*---------------------------------------------Author Details-------------------------------------------*/
+
+#pg-author .panel{
+	margin: 20px;
+}
+
+/*---------------------------------------------Book List-------------------------------------------*/
+.list{
+	margin: 60px 0px 0px 0px;
+	background-color: #ffffff
+	
+}
+.list th{
+	font-family:  Segoe UI;
+}
+
+#or_label p {
+    text-align: center;
+    font-weight: 700;
+    margin: 0px 0px 14px 135px;
+}
+
+.text-align-center {
+	text-align: center;
+}
